@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #004052;
+    color:white ;
+    border-bottom: 6px solid #002029;
+    border-radius: 10px;
+    transition:all  0.35s;
+    cursor: pointer;
+}
+.card:hover{
+    background:#FEFAE0;
+    color: #004052;
+    border-bottom:none;
+    box-shadow: 5px -5px #002029;
+    
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+
